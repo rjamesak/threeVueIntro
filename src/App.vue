@@ -1,19 +1,18 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <threeDWorld></threeDWorld>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import threeDWorld from "./components/threeDWorld.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    threeDWorld,
+  },
+};
 </script>
 
 <style>
@@ -24,5 +23,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  overflow: hidden;
 }
 </style>
